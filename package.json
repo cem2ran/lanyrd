@@ -1,0 +1,8 @@
+{
+  "jspm": {
+    "registry": "jspm",
+    "dependencies": {
+      "github:lhorie/mithril.js": "^0.1.21"
+    }
+  }
+}

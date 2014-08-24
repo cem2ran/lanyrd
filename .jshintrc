@@ -1,0 +1,10 @@
+{
+"latedef": false,
+"globalstrict": true,
+"globals": {
+    "m": false,
+    "module": false,
+    "location": false,
+    "require": false
+  }
+}

@@ -1,0 +1,13 @@
+<script src="jspm_packages/system@0.6.js"></script>
+<script src="config.js"></script>
+<script>
+  System.import('./lanyrd').then(function(Lanyrd) {
+    Lanyrd.popular()
+      .then(function(results) {
+        document.write(JSON.stringify(results));
+      }, function(error) {
+        console.log(error);
+        document.write(error);
+      })
+  });
+</script>
